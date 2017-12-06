@@ -31,7 +31,9 @@ $$str("hello") = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-data = $M^{34x256}(\mathbb{Z})$
+- data = $M^{34x256}(\mathbb{Z})$
+- $\mathbb{E}\_{train}(\text{char length}) = 149$
+- $var\_{train}(\text{char length}) = 106$
 
 +++
 
@@ -48,6 +50,13 @@ data = $M^{34x256}(\mathbb{Z})$
 
 ---
 
+### Process
+
+1. Vectorize chars & concatenate into matrix
+2. Treat data as "images" and process with CNN's
+3. Use Logloss function to compute score of model
+
+---
 ### Log-Loss Function
 
 $$-\dfrac{1}{N}\sum^{N}\_{i=1}\sum^{M}\_{j=1} y\_{ij}log(p\_{ij})$$
@@ -62,3 +71,11 @@ $$-\dfrac{1}{N}\sum^{N}\_{i=1}\sum^{M}\_{j=1} y\_{ij}log(p\_{ij})$$
 ### Log-loss Behavior
 
 ![Negative Log Curve](./logloss.png)
+
+---
+
+### Issues and Improvements
+
+- Large data for each sample and requires many samples for higher accuracy
+- Odd dimensions makes it more complex to build layers
+- Data augmentation using synonyms
