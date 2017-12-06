@@ -37,8 +37,8 @@ $$
 
 $$ \begin{bmatrix}
 \ddots& &\reflectbox{\ddots}\\\
- &\text{34x256}\& \\\
-\reflectbox{\ddots}& &\ddots
+ &\text{34x256}& \\\
+\reflectbox{$\ddots$}& &\ddots
 \end{bmatrix}
 $$
 
