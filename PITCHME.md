@@ -9,7 +9,7 @@ by Alex Yee
 `id# | 'some string here' | 'HPL'`
 
 1. HP Lovecraft
-2. Mary Wollstonecraft
+2. Mary Wollstonecraft Shelley
 3. Edger Allan Poe
 
 +++
@@ -79,3 +79,4 @@ $$-\dfrac{1}{N}\sum^{N}\_{i=1}\sum^{M}\_{j=1} y\_{ij}log(p\_{ij})$$
 - Large data for each sample and requires many samples for higher accuracy
 - Odd dimensions makes it more complex to build layers
 - Data augmentation using synonyms
+- CNN parameters & other NN models may yield possible improvements
