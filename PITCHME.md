@@ -29,3 +29,4 @@ $$str("hello") = \left[\begin{bmatrix}
 \vec{o}&\vec{l}&\vec{l}&\vec{e}&\vec{h}\\
 \vert&\vert&\vert&\vert&\vert\\
 \end{bmatrix}\right]
+$$
