@@ -26,7 +26,7 @@ $$\vec{char(c)} = \left[0, 0, 1,\ldots,0\right]^{T}$$
 
 $$str("hello") = \begin{bmatrix}
 \vert&\vert&\vert&\vert&\vert\\\
-\vec{o}&\vec{l}&\vec{l}&\vec{e}&\vec{h}\\\
+\ldots\vec{o}&\vec{l}&\vec{l}&\vec{e}&\vec{h}\\\
 \vert&\vert&\vert&\vert&\vert\\\
 \end{bmatrix}
 $$
