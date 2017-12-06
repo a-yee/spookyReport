@@ -37,7 +37,7 @@ $$
 
 $$
 \begin{bmatrix}
-\ddots& &\rdots\\\
+\ddots& &\reflectbox{$\ddots$}\\\
  &\text{34x256}& \\\
 \rdots& &\ddots
 \end{bmatrix}
