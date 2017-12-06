@@ -44,18 +44,18 @@ data = $M^{34x256}(\mathbb{Z})$
 
 ### Data as Image Cnt.
 
-![Text w/ truncation](./sparseimg.png)
+![Text w/ truncation](./sparserep.png)
 
 ---
 
 ### Log-Loss Function
 
-$$-\dfrac{1}{N}\sum^{N}_{i=1}\sum^{M}_{j=1} y_{ij}log(p_{ij})$$
+$$-\dfrac{1}{N}\sum^{N}\_{i=1}\sum^{M}\_{j=1} y\_{ij}log(p\_{ij})$$
 
 - $N = \text{# of samples}$
 - $M = \text{# of possible labels}
-- $y_{ij} = \text{binary value denoting ith label for class j}$
-- $p_{ij} = \text{probability of sample i being class j}
+- $y\_{ij} = \text{binary value denoting ith label for class j}$
+- $p\_{ij} = \text{probability of sample i being class j}
 
 +++
 
