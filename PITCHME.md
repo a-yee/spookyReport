@@ -35,10 +35,11 @@ $$
 
 ### My Data Format
 
-$$ \begin{bmatrix}
-\ddots& &\reflectbox{\ddots}\\\
+$$\newcommand{\rrdots}{\rotatebox[origin=c]{90}{$\ddots$}}
+\begin{bmatrix}
+\ddots& &\rrdots\\\
  &\text{34x256}& \\\
-\reflectbox{$\ddots$}& &\ddots
+\rrdots& &\ddots
 \end{bmatrix}
 $$
 
