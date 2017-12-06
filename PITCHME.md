@@ -53,9 +53,9 @@ data = $M^{34x256}(\mathbb{Z})$
 $$-\dfrac{1}{N}\sum^{N}\_{i=1}\sum^{M}\_{j=1} y\_{ij}log(p\_{ij})$$
 
 - $N = \text{# of samples}$
-- $M = \text{# of possible labels}
+- $M = \text{# of possible labels}$
 - $y\_{ij} = \text{binary value denoting ith label for class j}$
-- $p\_{ij} = \text{probability of sample i being class j}
+- $p\_{ij} = \text{probability of sample i being class j}$
 
 +++
 
