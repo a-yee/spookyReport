@@ -31,17 +31,7 @@ $$str("hello") = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-+++
-
-### My Data Format
-
-$$
-\begin{bmatrix}
-\ddots& &\reflectbox{$\ddots$}\\\
- &\text{34x256}& \\\
-\rdots& &\ddots
-\end{bmatrix}
-$$
+data = $M^{34x256}(\mathbb{Z})$
 
 +++
 
